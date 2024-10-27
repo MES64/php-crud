@@ -28,7 +28,7 @@ $title = "Simple PHP CRUD -- Contacts";
         <td>1999-01-01</td>
         <td>
           <a href="add_edit.php">Edit</a>
-          <a href="#">Delete</a>
+          <a href="delete.php">Delete</a>
         </td>
       </tr>
     </tbody>
