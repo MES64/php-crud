@@ -33,6 +33,6 @@ $title = "Simple PHP CRUD -- Contacts";
       </tr>
     </tbody>
   </table>
-  <a href="#">Add Contact</a>
+  <a href="add_edit.php">Add Contact</a>
 </body>
 </html>
