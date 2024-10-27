@@ -10,5 +10,29 @@ $title = "Simple PHP CRUD -- Contacts";
 </head>
 <body>
   <h1><?php echo $title ?></h1>
+  <table>
+    <head>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Birth Date</th>
+        <th>Actions</th>
+      </tr>
+    </head>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>test@test.com</td>
+        <td>1999-01-01</td>
+        <td>
+          <a href="#">Edit</a>
+          <a href="#">Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <a href="#">Add Contact</a>
 </body>
 </html>
