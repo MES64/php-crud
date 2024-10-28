@@ -7,7 +7,7 @@ class Database
 
   public function __construct()
   {
-    $this->dbconn = mysqli_connect("localhost", "mark", "Iwctopf24!", "php_crud");
+    $this->dbconn = mysqli_connect("", "", "", "");
   }
 
   public function getContacts()
