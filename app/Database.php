@@ -1,13 +1,15 @@
 <?php
 namespace App;
 
+include_once "conn_vars.php";
+
 class Database
 {
   private $dbconn;
 
   public function __construct()
   {
-    $this->dbconn = mysqli_connect("", "", "", "");
+    $this->dbconn = mysqli_connect($host, $username, $password, $dbname);
   }
 
   public function getContacts()
