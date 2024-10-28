@@ -38,4 +38,9 @@ class Database
     $sql = "UPDATE contacts SET name_first = '$name_first', name_last = '$name_last', email = '$email', birth_date = '$birth_date' WHERE id = $id;";
     mysqli_query($this->dbconn, $sql);
   }
+
+  public function deleteContact($id) {
+    $sql = "DELETE FROM contacts WHERE id = $id;";
+    mysqli_query($this->dbconn, $sql);
+  }
 }
